@@ -29,6 +29,7 @@ jobs:
       with:
         image: abebetekle22/spring5webapp 
         tags: v1, latest
+        dockerfile: Dockerfile.ci
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
