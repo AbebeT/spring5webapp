@@ -27,7 +27,7 @@ jobs:
     - name: Build and Push Docker Image  
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: abebetekle22/spring5webapp 
+        image: abebet/docker22
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
