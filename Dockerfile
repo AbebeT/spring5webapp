@@ -1,1 +1,2 @@
-docker build .
+From openjdk:8
+ADD 
