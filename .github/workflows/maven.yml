@@ -27,6 +27,6 @@ jobs:
     - name: Build and Push Docker Image  
       uses: mr-smithers-excellent/docker-build-push@v4 
       with:
-        name: abebetekle22/spring5webapp 
+        image: abebetekle22/spring5webapp 
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
